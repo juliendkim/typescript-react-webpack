@@ -30,7 +30,7 @@ exports.default = {
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader'],
             }, {
-                test: /\.sass$/,
+                test: /\.scss$/,
                 loader: 'style-loader!css-loader!sass-loader'
             }, {
                 test: /\.(png|jp(e*)g|svg)$/,
@@ -72,6 +72,5 @@ exports.default = {
     devServer: {
         port: 3000,
         hot: true
-    },
-    // devtool: 'cheap-module-source-map'
+    }
 };

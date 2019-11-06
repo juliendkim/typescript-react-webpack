@@ -2,9 +2,16 @@
   "name": "typescript-react-webpack",
   "version": "0.1.0",
   "description": "typescript react webpack mobx",
-  "keywords": "typescript react webpack mobx",
+  "keywords": [
+    "Typescript",
+    "React",
+    "Webpack",
+    "Mobx"
+  ],
+  "author": "Dee Kim <juliendkim@gmail.com> (https://juliendkim.blogspot.com)",
   "homepage": "",
-  "private": true,
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "mobx": "^5.14.2",
     "mobx-react": "^6.1.4",
